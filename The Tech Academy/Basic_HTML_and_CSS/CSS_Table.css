@@ -1,0 +1,26 @@
+﻿table {
+    padding: 3px;
+    text-align: center;
+    color: gold;
+    background-color: black;
+    border: 3px solid;
+    border-color: gold;
+}
+th {
+    padding: 3px;
+    font-weight: bolder;
+    font-size: large;
+    border-bottom: 3px solid;
+    border-color: gold;
+}
+td {
+    padding: 1px;
+    border: 1px dotted;
+    border-color: gold;
+}
+td:hover {
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
