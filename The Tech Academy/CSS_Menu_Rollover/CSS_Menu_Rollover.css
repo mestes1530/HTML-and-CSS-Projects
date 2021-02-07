@@ -1,0 +1,58 @@
+﻿body {
+    background-color: darkgray;
+}
+
+header {
+    text-align: center;
+    padding: 1%;
+}
+
+.NavBar {
+    background-color: darkblue;
+    margin: 5%;
+    padding: 1%;
+}
+
+.DropDownButton {
+    background-color: darkcyan;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 2px solid white;
+}
+
+.DropDown {
+    position: relative;
+    display: inline-block;
+}
+
+.DropDownMenu {
+    display: none;
+    position: absolute;
+    background-color: darkblue;
+    color: white;
+    min-width: 160px;
+    border: 2px solid white;
+}
+
+    .DropDownMenu a {
+        color: white;
+        padding: 10% 10%;
+        text-decoration: none;
+        display: block;
+        border: 2px solid white;
+    }
+
+        .DropDownMenu a:hover {
+            background-color: cyan;
+            color: darkblue;
+        }
+
+.DropDown:hover .DropDownMenu {
+    display: block;
+}
+
+.DropDown:hover .DropDownButton {
+    background-color: cyan;
+    color: darkblue;
+}
