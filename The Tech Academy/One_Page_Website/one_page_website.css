@@ -1,0 +1,78 @@
+﻿body {
+    background-color: lightgrey;
+    font-family: sans-serif;
+    padding: 1%;
+    margin: 1%;
+}
+
+.NavBar {
+    background-color: maroon;
+    border-style: double;
+    border-color: gold;
+    padding: 1%;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.NavItem {
+    background-color: gold;
+    text-decoration: none;
+    padding: 1%;
+    margin: 1%;
+    border-color: darkgray;
+    border: double;
+    font-weight: bolder;
+}
+
+#TitlePic {
+    position: absolute;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    z-index: -1;
+}
+
+#PageTitle {
+    text-align: center;
+    font-weight: bolder;
+    font-family: cursive;
+    color: maroon;
+    font-size: 70px;
+    text-shadow: 2px 2px gold;
+    z-index: 2;
+}
+
+.SectionHeading {
+    text-decoration: underline;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+.SectionContainer {
+    background-color: rgba(255, 215, 0, 0.7);
+    border-style: double;
+    border-color: maroon;
+    padding: 1%;
+    margion: 1%;
+}
+
+.ArtContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.ArtPiece {
+    width: 400px;
+    margin: 1%;
+}
+
+.NavItem:hover {
+    background-color: darkgrey;
+    border-color: gold;
+    color: gold;
+}
