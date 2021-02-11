@@ -1,4 +1,4 @@
-﻿body {
+body {
     background-color: lightgrey;
     font-family: sans-serif;
     padding: 1%;
@@ -57,7 +57,7 @@
     border-style: double;
     border-color: maroon;
     padding: 1%;
-    margion: 1%;
+    margin: 1%;
 }
 
 .ArtContainer {
@@ -69,6 +69,13 @@
 .ArtPiece {
     width: 400px;
     margin: 1%;
+    border-width: 3px;
+    border: solid;
+    border-color: maroon;
+}
+
+input {
+    margin-left: 100px;
 }
 
 .NavItem:hover {
