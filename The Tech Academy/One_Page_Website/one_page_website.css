@@ -76,6 +76,9 @@ body {
 
 input {
     margin-left: 100px;
+    border-width: 3px;
+    border: solid;
+    border-color: maroon;
 }
 
 .NavItem:hover {
